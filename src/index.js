@@ -5,11 +5,11 @@ import { Provider } from "react-redux";
 import App from "./app/layout/App.jsx";
 import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter } from "react-router-dom";
-import { configureStore } from './app/store/configureStore'
+import { configureStore } from "./app/store/configureStore";
 
 const store = configureStore();
 
-console.log(store.getState())
+// console.log(store.getState());
 
 const rootEl = document.getElementById("root");
 
